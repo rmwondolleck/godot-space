@@ -1,0 +1,15 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script"      path="res://scripts/main.gd"          id="main_script"]
+[ext_resource type="PackedScene" path="res://scenes/world.tscn"        id="world_scene"]
+[ext_resource type="PackedScene" path="res://scenes/ui.tscn"           id="ui_scene"]
+[ext_resource type="PackedScene" path="res://scenes/game_over.tscn"    id="go_scene"]
+
+[node name="Main" type="Node"]
+script = ExtResource("main_script")
+
+[node name="World" parent="." instance=ExtResource("world_scene")]
+
+[node name="UI" parent="." instance=ExtResource("ui_scene")]
+
+[node name="GameOver" parent="." instance=ExtResource("go_scene")]
