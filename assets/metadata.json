@@ -1,0 +1,94 @@
+{
+  "group_id": "6c84723f-903e-4db5-a91f-327b7028f214",
+  "states": [
+    {
+      "character": {
+        "id": "a381bf28-0cbc-4cd2-a12d-8e3f6bcc7aef",
+        "name": "Create a finished pixel art",
+        "prompt": "Create a finished pixel art sprite of a cute child-drawn astronaut, based on a simple handmade paper cutout with a playful, chunky silhouette. The astronaut should have an oversized rounded helmet, a bright yellow spacesuit, dark teal outline accents, a small chest control panel with orange details, and rounded limbs with slightly uneven handmade proportions. Keep the design charming, bold, and readable at small size, with a retro game sprite feel. Use a limited palette, clean edges, subtle shading, and strong contrast. Front-facing or slightly angled pose, isolated on a transparent background, no environment, no text, no extra props. Make it feel like a finished 16-bit style character sprite, friendly and whimsical, while preserving the spirit of a child\u2019s original drawing.  Negative prompt: blurry, realistic, 3D render, detailed background, complex lighting, extra limbs, text, watermark, photorealistic, metallic armor, sci-fi realism, dark mood, noise, low contrast  Optional size note: 32x32 or 48x48 sprite, crisp pixel grid, game-ready. Create the base level character with a base level space suit, think about how a player can collect more gear to add on to their space suit",
+        "size": {
+          "width": 84,
+          "height": 84
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-05-23T02:09:24.419931+00:00"
+      },
+      "folder": "Create_a_finished_pixel_art",
+      "frames": {
+        "rotations": {
+          "south": "Create_a_finished_pixel_art/rotations/south.png",
+          "south-east": "Create_a_finished_pixel_art/rotations/south-east.png",
+          "east": "Create_a_finished_pixel_art/rotations/east.png",
+          "north-east": "Create_a_finished_pixel_art/rotations/north-east.png",
+          "north": "Create_a_finished_pixel_art/rotations/north.png",
+          "north-west": "Create_a_finished_pixel_art/rotations/north-west.png",
+          "west": "Create_a_finished_pixel_art/rotations/west.png",
+          "south-west": "Create_a_finished_pixel_art/rotations/south-west.png"
+        },
+        "animations": {
+          "animation-bdb831f0": {
+            "south": [
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south/frame_000.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south/frame_001.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south/frame_002.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south/frame_003.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south/frame_004.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south/frame_005.png"
+            ],
+            "south-east": [
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south-east/frame_000.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south-east/frame_001.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south-east/frame_002.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south-east/frame_003.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south-east/frame_004.png",
+              "Create_a_finished_pixel_art/animations/animation-bdb831f0/south-east/frame_005.png"
+            ]
+          },
+          "Running-dda01bd9": {
+            "south": [
+              "Create_a_finished_pixel_art/animations/Running-dda01bd9/south/frame_000.png",
+              "Create_a_finished_pixel_art/animations/Running-dda01bd9/south/frame_001.png",
+              "Create_a_finished_pixel_art/animations/Running-dda01bd9/south/frame_002.png",
+              "Create_a_finished_pixel_art/animations/Running-dda01bd9/south/frame_003.png",
+              "Create_a_finished_pixel_art/animations/Running-dda01bd9/south/frame_004.png",
+              "Create_a_finished_pixel_art/animations/Running-dda01bd9/south/frame_005.png"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "character": {
+        "id": "a11a0346-856e-43ae-adff-bfba99891deb",
+        "name": "space man primary at",
+        "prompt": "Create a finished pixel art sprite of a cute child-drawn astronaut, based on a simple handmade paper cutout with a playful, chunky silhouette. The astronaut should have an oversized rounded helmet, a bright yellow spacesuit, dark teal outline accents, a small chest control panel with orange details, and rounded limbs with slightly uneven handmade proportions. Keep the design charming, bold, and readable at small size, with a retro game sprite feel. Use a limited palette, clean edges, subtle shading, and strong contrast. Front-facing or slightly angled pose, isolated on a transparent background, no environment, no text, no extra props. Make it feel like a finished 16-bit style character sprite, friendly and whimsical, while preserving the spirit of a child\u2019s original drawing.  Negative prompt: blurry, realistic, 3D render, detailed background, complex lighting, extra limbs, text, watermark, photorealistic, metallic armor, sci-fi realism, dark mood, noise, low contrast  Optional size note: 32x32 or 48x48 sprite, crisp pixel grid, game-ready. Create the base level character with a base level space suit, think about how a player can collect more gear to add on to their space suit",
+        "size": {
+          "width": 84,
+          "height": 84
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-05-23T02:21:15.047967+00:00"
+      },
+      "folder": "space_man_primary_at",
+      "frames": {
+        "rotations": {
+          "south": "space_man_primary_at/rotations/south.png",
+          "south-east": "space_man_primary_at/rotations/south-east.png",
+          "east": "space_man_primary_at/rotations/east.png",
+          "north-east": "space_man_primary_at/rotations/north-east.png",
+          "north": "space_man_primary_at/rotations/north.png",
+          "north-west": "space_man_primary_at/rotations/north-west.png",
+          "west": "space_man_primary_at/rotations/west.png",
+          "south-west": "space_man_primary_at/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-05-23T03:00:30.121976"
+}

@@ -17,6 +17,7 @@ const HEAVY_RANGE: float = 65.0
 
 const LIGHT_COOLDOWN: float = 0.40
 const HEAVY_COOLDOWN: float = 0.90
+const RANGED_COOLDOWN: float = 0.60
 const MELEE_FACING_THRESHOLD: float = 0.2   # dot-product floor ≈ ±78° arc
 const INVINCIBLE_TIME: float = 0.60
 
