@@ -41,10 +41,10 @@ func _draw() -> void:
 				Vector2(cx,               cy + ISO_H * 0.5),  # bottom
 				Vector2(cx - ISO_W * 0.5, cy),                # left
 			])
-			# Alternate tile shades for a grid pattern
-			var shade: int = (absi(col) + absi(row)) % 3
+			# Cycle through three shades to create a readable grid pattern
+			var tile_shade_index: int = (absi(col) + absi(row)) % 3
 			var tile_color: Color
-			match shade:
+			match tile_shade_index:
 				0: tile_color = Color(0.07, 0.09, 0.14)
 				1: tile_color = Color(0.09, 0.11, 0.17)
 				_: tile_color = Color(0.06, 0.08, 0.12)

@@ -17,7 +17,7 @@ const HEAVY_RANGE: float = 65.0
 
 const LIGHT_COOLDOWN: float = 0.40
 const HEAVY_COOLDOWN: float = 0.90
-const RANGED_COOLDOWN: float = 0.45
+const MELEE_FACING_THRESHOLD: float = 0.2   # dot-product floor ≈ ±78° arc
 const INVINCIBLE_TIME: float = 0.60
 
 # ---------- state ----------
@@ -113,8 +113,8 @@ func _deal_melee(damage: int, range: float) -> void:
 		if not is_instance_valid(enemy):
 			continue
 		var diff: Vector2 = enemy.global_position - global_position
-		# Must be in range AND in roughly the facing arc (dot > 0.2 = ~78° half-angle)
-		if diff.length() <= range and facing.dot(diff.normalized()) > 0.2:
+		# Must be in range AND in roughly the facing arc
+		if diff.length() <= range and facing.dot(diff.normalized()) > MELEE_FACING_THRESHOLD:
 			enemy.take_damage(damage)
 
 

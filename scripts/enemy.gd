@@ -9,6 +9,7 @@ const MAX_HP: int           = 40
 const XP_REWARD: int        = 20
 const SCORE_REWARD: int     = 50
 const WORLD_LIMIT: float    = 950.0
+const LOOT_DROP_CHANCE: float = 0.6   # probability of dropping an item on death
 
 var current_hp: int  = MAX_HP
 var is_dead: bool    = false
@@ -82,8 +83,8 @@ func _die() -> void:
 
 
 func _drop_loot() -> void:
-	# 60 % chance to drop something
-	if randf() > 0.6:
+	# LOOT_DROP_CHANCE probability to drop something
+	if randf() > LOOT_DROP_CHANCE:
 		return
 	var types   := ["energy_cell", "credits", "upgrade_material"]
 	var weights := [0.50,           0.35,      0.15]
