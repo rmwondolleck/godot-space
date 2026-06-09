@@ -1,0 +1,55 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/game_over.gd" id="go_script"]
+
+[node name="GameOver" type="CanvasLayer"]
+layer = 20
+process_mode = 3
+visible = false
+script = ExtResource("go_script")
+
+[node name="Overlay" type="ColorRect" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.72)
+
+[node name="Center" type="CenterContainer" parent="."]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBox" type="VBoxContainer" parent="Center"]
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="Center/VBox"]
+text = "GAME OVER"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 48
+
+[node name="Spacer" type="Label" parent="Center/VBox"]
+text = " "
+
+[node name="ScoreLabel" type="Label" parent="Center/VBox"]
+text = "SCORE  0"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 24
+
+[node name="LevelLabel" type="Label" parent="Center/VBox"]
+text = "LEVEL  1"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 24
+
+[node name="KillLabel" type="Label" parent="Center/VBox"]
+text = "KILLS  0"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 24
+
+[node name="Spacer2" type="Label" parent="Center/VBox"]
+text = " "
+
+[node name="RestartButton" type="Button" parent="Center/VBox"]
+text = "RESTART"
+theme_override_font_sizes/font_size = 24
